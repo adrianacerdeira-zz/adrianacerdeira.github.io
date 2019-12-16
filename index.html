@@ -13,9 +13,9 @@
             font-weight: bold;
         }
         main {
-            margin-top: 10px;
+            padding-top: 150px;
             margin-right: auto;
-            margin-bottom: 10px;
+            padding-bottom: 10px;
             margin-left: auto;
             width: 80%;
         }
@@ -24,7 +24,12 @@
             width: 100%;
             margin: 0;
             padding: 10px;
-            color: #6E09E2;
+            color: #FFF;
+            position:fixed;
+            top:0;
+            left:0;
+            right:0
+            width:100%;
         }
         dl, #imagens, #ambienteTrabalho, #adriana {
             border: 2px solid #6E09E2;
@@ -39,19 +44,33 @@
         h2 {
             color: #6E09E2;
         }
-        h3, .header {
+        h3{
             color: #d9009d;
         }
+        img{ 
+            width:100px;
+            float:left;
+        }
+        .header {
+            color:#FFFFFF;
+        }
+        .clear-float{
+            clear:both;
+        } 
+
     </style>
 </head>
 <body>
 
 <header>
-    <h1 class="header">Links Úteis</h1>
 
-    <h2 class="header">Front-end desde o Começo - Desenvolvimento Web</h2>
+    <a href="http://adrianacerdeira.info" target="_blank"> <img src="avatar.png" alt="Avatar de Adriana Cerdeira com Link para site de Adriana"></a>
+    <h1 class="header">Links Úteis para Alunos de Desenvolvimento Web</h1>
 
-    <h3 class="header">Adriana Cerdeira</h3>
+    <h2 class="header">Adriana Cerdeira</h2>
+
+    
+    <div class="clear-float"></div>
 </header>
 <main>
     <section id="adriana" class="recursos">
@@ -181,6 +200,11 @@
 
             <dd><a href="https://jsbin.com/" target="_blank" alt="Link para JSBin">
                 https://jsbin.com/</a></dd>
+                </dl>
+                 <dt>Ambiente de teste de código PHP online</dt>
+
+            <dd><a href="https://www.runphponline.com/" target="_blank" alt="Link para Online PHP Interpreter">
+                https://www.runphponline.com/</a></dd>
                 </dl>
         </section>
 
