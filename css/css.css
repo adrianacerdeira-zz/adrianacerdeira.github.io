@@ -1,0 +1,59 @@
+.recursos {
+            padding: 10px;
+            margin: 5px;
+        }
+        dt {
+            color: #6E09E2;
+            font-weight: bold;
+        }
+        main {
+            padding-top: 200px;
+            margin-right: auto;
+            padding-bottom: 10px;
+            margin-left: auto;
+            width: 80%;
+        }
+        header {
+            background-color: #BB9AE2;
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+            color: #FFF;
+            position:fixed;
+            top:0;
+            left:0;
+            right:0
+            width:100%;
+        }
+        dl, #imagens, #ambienteTrabalho, #adriana {
+            border: 2px solid #6E09E2;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        dl.recursos_internos {
+            border: 2px solid #d9009d;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        h2 {
+            color: #6E09E2;
+        }
+        h3{
+            color: #d9009d;
+        }
+        img{ 
+            width:100px;
+            float:left;
+        }
+        .header {
+            color:#FFFFFF;
+        }
+        .clear-float{
+            clear:both;
+        } 
+        dd,dt{
+            margin:1.25em;
+        }
+        dd{
+            padding-left:1em;
+        }
