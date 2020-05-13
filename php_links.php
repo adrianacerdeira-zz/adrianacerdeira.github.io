@@ -1,5 +1,5 @@
 <?php 
-include '../includes/header.php';
+include 'includes/header.php';
 ?>
     <section id="adriana" class="recursos">
         <h2>Minhas Novidades e Canais</h2>
@@ -36,5 +36,5 @@ include '../includes/header.php';
         </section>
 
 <?php 
-include '../includes/footer.php';
+include 'includes/footer.php';
 ?>
